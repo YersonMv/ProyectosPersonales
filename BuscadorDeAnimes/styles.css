@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navegador{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 9px 20px -19px rgba(0, 0, 0, 0.75);
+}
+div section img {
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+div section img:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: 3px 9px 30px -19px rgba(0, 0, 0, 0.75);
+}
+section h1 {
+  text-align: center;
+  /* align-self: center; */
+  flex: 80%;
+}
+
+section p {
+  flex: 80%;
+  order: 1;
+}
+section strong {
+  flex-direction: column;
+  flex: 80%;
+  display: block;
+  order: 0;
+}
+
